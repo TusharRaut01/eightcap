@@ -1,0 +1,6 @@
+n1=int(input('enter the numerator of 1st fraction '))
+d1=int(input('enter the denominator of 1st fraction '))
+n2=int(input('enter the numerator of 2nd fraction '))
+d2=int(input('enter the denominator of 2nd fraction '))
+sum=(n1*d2)+(n2*d1)/(d1*d2)
+print('the sum of this two fraction is :-', sum)
