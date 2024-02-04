@@ -1,0 +1,8 @@
+x=int(input("enter no of heads:"))
+y=int(input('enter no of legs:'))
+a=str(x)
+b=str(y)
+b=int(2*x-(y/2)) #equation (4*a+2*b=y)
+print('no of chicken:',b)
+a=int(x-b) #equation (a+b=x)
+print('no of dogs:',a)
